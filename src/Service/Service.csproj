@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-Service-DD72B457-22AF-404F-8EE7-A1F59452E458</UserSecretsId>
+        <RootNamespace>Petroineos.Aggregator.Service</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="CsvHelper" Version="27.2.1"/>
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1"/>
+        <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="PowerService">
+            <HintPath>..\..\assemblies\PowerService.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+</Project>

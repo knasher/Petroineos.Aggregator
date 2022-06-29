@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "Service": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development",
+        "Report:Path": "",
+        "Service:Delay": "01:00:00"
+      }
+    }
+  }
+}
